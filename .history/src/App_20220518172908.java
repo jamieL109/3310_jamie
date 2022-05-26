@@ -1,10 +1,8 @@
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+import java.awt.event.*;
 import java.time.Duration;
 import java.time.Instant;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -32,9 +30,7 @@ public class App extends JFrame {
         }
 
         @Override
-        public void keyPressed (KeyEvent e) {
-             // avoid UnCommentedEmptyMethodBody rule
-        }    
+        public void keyPressed (KeyEvent e) {}    
         
         @Override
         public void keyReleased (KeyEvent e) {
@@ -42,9 +38,7 @@ public class App extends JFrame {
         }    
 
         @Override
-        public void keyTyped (KeyEvent e) {
-            // avoid UnCommentedEmptyMethodBody rule
-        }    
+        public void keyTyped (KeyEvent e) {}    
 
     }
 

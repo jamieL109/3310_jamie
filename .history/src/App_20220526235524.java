@@ -4,7 +4,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.time.Duration;
 import java.time.Instant;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
